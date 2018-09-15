@@ -1,19 +1,18 @@
 from flask import Flask, render_template, session, redirect, url_for, flash
 from flask_bootstrap import Bootstrap
+from flask_migrate import Migrate, MigrateCommand
 from flask_moment import Moment
 from flask_script import Manager
-from datetime import datetime
-
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import os
 
-# 数据库
-basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
+# 数据库
+basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SECRET_KEY'] = 'hard to guess string'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -22,6 +21,10 @@ db = SQLAlchemy(app)
 manager = Manager(app)
 bootstrap = Bootstrap(app)
 monment = Moment(app)
+
+# 数据库迁移
+migrate = Migrate(app, db)
+manager.add_command('db', MigrateCommand)
 
 # 跨站请求伪造保护
 app.config["SECRET_KEY"] = 'hard to guess string'
@@ -46,7 +49,7 @@ class Role(db.Model):
 class User(db.Model):
     __tablename__ = "users"
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String, unique=True, index=True) # 创建索引
+    username = db.Column(db.String, unique=True, index=True)  # 创建索引
     role_id = db.Column(db.Integer, db.ForeignKey("roles.id"))
 
     def __repr__(self):
@@ -79,7 +82,7 @@ def index():
         return redirect(url_for('index'))
     return render_template("index.html", form=form, name=session.get("name"))
 
-
 if __name__ == '__main__':
     print(app.url_map)
-    app.run(debug=True)
+    #     app.run()
+    manager.run()
