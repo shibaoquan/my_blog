@@ -27,6 +27,11 @@ def create_app(config_name):
     # 配置项目日志
     steup_log(config[config_name].LEVEL_LOG)
 
+    # 注册蓝图
+    from .auth import auth
+    app.register_blueprint(auth)
+
+
     # 附加路由和自定义的错误页面 return app
     return app
 

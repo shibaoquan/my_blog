@@ -559,3 +559,5 @@ INFO _internal.py:87  * Detected change in '/Users/shitamotsuquan/Desktop/项目
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87  * Detected change in '/Users/shitamotsuquan/Desktop/项目/Git/my_blog/app/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
