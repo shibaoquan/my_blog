@@ -1,9 +1,7 @@
 from flask import Flask, render_template, session, redirect, url_for, flash
-from flask_bootstrap import Bootstrap
 from flask_migrate import Migrate, MigrateCommand
 from flask_moment import Moment
 from flask_script import Manager
-from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
@@ -74,7 +72,17 @@ def index():
     return render_template("index.html", form=form, name=session.get("name"))
 
 
+@manager.command
+def test():
+    """run the nuit tests"""
+    import unittest
+    tests = unittest.TestLoader().discover('test')
+    unittest.TextTestRunner(verbosity=2).run(tests)
+
 if __name__ == '__main__':
     print(app.url_map)
     #     app.run()
     manager.run()
+
+
+

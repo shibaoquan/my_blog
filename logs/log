@@ -3,3 +3,551 @@ INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 217-725-169
 INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:48:26] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5009/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:53:50] "GET /user/sdfg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5009/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87  * Running on http://127.0.0.1:5009/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87  * Running on http://127.0.0.1:5009/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87 127.0.0.1 - - [23/Sep/2018 00:11:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5009/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87 127.0.0.1 - - [23/Sep/2018 00:14:06] "GET / HTTP/1.1" 200 -
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG base_events.py:491 Close <BaseEventLoop running=False closed=False debug=True>
+DEBUG base_events.py:491 Close <BaseEventLoop running=False closed=False debug=True>
+DEBUG base_events.py:1386 poll took 0.043 ms: 0 events
+DEBUG base_events.py:491 Close <BaseEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG base_events.py:1386 poll took 0.013 ms: 1 events
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG base_events.py:1386 poll took 0.027 ms: 1 events
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: PollSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG base_events.py:1386 poll took 0.018 ms: 1 events
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG base_events.py:491 Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG selector_events.py:65 Using selector: SelectSelector
+DEBUG base_events.py:491 Close <TestLoop running=False closed=False debug=True>
+DEBUG base_events.py:491 Close <TestLoop running=False closed=False debug=True>
+DEBUG base_events.py:491 Close <TestLoop running=False closed=False debug=True>
+DEBUG base_events.py:491 Close <TestLoop running=False closed=False debug=True>
+DEBUG base_events.py:491 Close <BaseEventLoop running=False closed=False debug=True>
+WARNING base_events.py:1428 Executing <Task finished coro=<CoroutineTests.test_async_def_wrapped.<locals>.start() done, defined at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/test_pep492.py:150> result=None created at /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py:447> took 0.266 seconds
+DEBUG base_events.py:491 Close <BaseEventLoop running=False closed=False debug=True>
+DEBUG base_events.py:491 Close <BaseEventLoop running=False closed=False debug=True>
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG proactor_events.py:384 Using proactor: Mock
+DEBUG base_events.py:491 Close <TestLoop running=False closed=False debug=True>
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: Mock
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector
+DEBUG selector_events.py:65 Using selector: KqueueSelector

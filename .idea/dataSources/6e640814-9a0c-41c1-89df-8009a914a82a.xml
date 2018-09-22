@@ -25,7 +25,6 @@
     <index id="11" parent="6" name="sqlite_autoindex_alembic_version_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version_num</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="12" parent="6" name="alembic_version_pkc">
@@ -45,7 +44,6 @@
     <index id="15" parent="7" name="sqlite_autoindex_roles_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="16" parent="7">
@@ -91,7 +89,6 @@
     </column>
     <index id="26" parent="9" name="ix_users_username">
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="27" parent="9">
