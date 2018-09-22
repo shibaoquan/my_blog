@@ -8,27 +8,17 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import os
+from app import create_app, db
 
 
-app = Flask(__name__)
-# 数据库
-basedir = os.path.abspath(os.path.dirname(__file__))
-app.config['SECRET_KEY'] = 'hard to guess string'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
-print(app.config['SQLALCHEMY_DATABASE_URI'])
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
-
+app = create_app(os.getenv('FLASK_CONFIG') or 'default')
 manager = Manager(app)
-bootstrap = Bootstrap(app)
+# bootstrap = Bootstrap(app)
 monment = Moment(app)
 
 # 数据库迁移
 migrate = Migrate(app, db)
 manager.add_command('db', MigrateCommand)
-
-# 跨站请求伪造保护
-app.config["SECRET_KEY"] = 'hard to guess string'
 
 
 # 创建表单类
@@ -82,6 +72,7 @@ def index():
         session['name'] = form.name.data
         return redirect(url_for('index'))
     return render_template("index.html", form=form, name=session.get("name"))
+
 
 if __name__ == '__main__':
     print(app.url_map)

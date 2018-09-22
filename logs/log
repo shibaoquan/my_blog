@@ -1,0 +1,5 @@
+INFO _internal.py:87  * Running on http://127.0.0.1:5009/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 217-725-169
+INFO _internal.py:87 127.0.0.1 - - [22/Sep/2018 23:48:26] "GET / HTTP/1.1" 200 -
