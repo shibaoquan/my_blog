@@ -7,7 +7,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import os
 from app import create_app, db
-
+from app.models import User, Role
 
 app = create_app(os.getenv('FLASK_CONFIG') or 'default')
 manager = Manager(app)
@@ -25,24 +25,7 @@ class NameForm(FlaskForm):
     submit = SubmitField("Submit")
 
 
-class Role(db.Model):
-    __tablename__ = "roles"  # 表名
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(64), unique=True)
-    users = db.relationship("User", backref="role")
 
-    def __repr__(self):
-        return '<Role %r>' % self.name
-
-
-class User(db.Model):
-    __tablename__ = "users"
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String, unique=True, index=True)  # 创建索引
-    role_id = db.Column(db.Integer, db.ForeignKey("roles.id"))
-
-    def __repr__(self):
-        return '<User %r>' % self.username
 
 
 @app.route('/user/<name>')
